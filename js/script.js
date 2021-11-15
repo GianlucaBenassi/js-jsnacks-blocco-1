@@ -3,14 +3,14 @@
 // Il programma stampa la somma di tutti i numeri inseriti.
 // Esegui questo programma in due versioni, con il for e con il while
 
-// for
 
 const btnJSnack1 = document.getElementById('jsnack1');
 
 btnJSnack1.addEventListener('click', function(){
-
+    
     console.clear();
     
+    // for
     let sommaFor = 0;
     
     for (let i = 0; i < 5; i++) {
@@ -26,7 +26,7 @@ btnJSnack1.addEventListener('click', function(){
     
     console.log('Somma del ciclo FOR: ' + sommaFor);
     
-    // //while
+    //while
     
     let sommaWhile = 0;
     let i = 0;
